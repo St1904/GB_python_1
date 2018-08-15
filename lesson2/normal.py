@@ -54,18 +54,11 @@ print(lst)
 
 lst = [1, 2, 4, 5, 6, 2, 5, 2]
 lst2 = list(set(lst))
-
-dict = {}
-for x in lst:
-    if x in dict:
-        dict[x] += 1
-    else:
-        dict[x] = 1
-
 lst3 = []
-for key in dict:
-    if dict[key] == 1:
-        lst3.append(key)
+
+for x in lst:
+    if lst.count(x) == 1:
+        lst3.append(x)
 
 print(lst2)
 print(lst3)

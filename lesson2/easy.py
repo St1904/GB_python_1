@@ -13,11 +13,9 @@
 
 # Подсказка: воспользоваться методом .format()
 
-list = ["яблоко", "банан", "киви", "арбуз"]
-i = 1
-for fruit in list:
-    print('{}.{:>8}'.format(i, fruit))
-    i += 1
+fruits = ["яблоко", "банан", "киви", "арбуз"]
+for index, fruit in enumerate(fruits, start = 1):
+    print('{}.{:>8}'.format(index, fruit))
 
 
 # Задача-2:
