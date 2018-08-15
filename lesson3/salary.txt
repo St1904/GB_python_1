@@ -1,0 +1,3 @@
+Vasya - 80000
+Petya - 600000
+Mikhail - 100000
